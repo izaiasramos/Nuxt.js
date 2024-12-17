@@ -9,5 +9,5 @@ export default defineNuxtConfig({
   app: {
     baseURL: process.env.BASE_URL,
   },
-  css: ['~/assets/main.css'],
+  css: ['~/assets/main.css'],// css padrão(global) da aplicação, quando se usa o css global, não precisa importar em cada componente
 });
