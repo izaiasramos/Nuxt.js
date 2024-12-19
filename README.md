@@ -1,3 +1,6 @@
+<h2>Projeto baseado em uma trilha de 17 videos do canal do youtube: https://www.youtube.com/watch?v=WahQ5AoXpuU&list=PLxd1RHU8YgYmTKohDs2lTqGvy0eaZJFfK&index=1 <br/>   
+    Ensinando como criar um site com Nuxt.js 3</h2>
+
 1. $route é o quê?
 $route é um objeto fornecido pelo Vue Router, a biblioteca de roteamento que o Nuxt utiliza internamente. Ele contém informações sobre a rota atual, como os parâmetros da URL, a query string, o nome da rota e outros dados.
 
