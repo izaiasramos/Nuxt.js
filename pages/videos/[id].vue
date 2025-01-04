@@ -7,6 +7,9 @@
 </template>
 
 <script setup>
+    definePageMeta({
+        layout: 'exibicao',
+    });
     const route = useRoute();//importa o useRoute para poder recuperar parametros da url/rota
 
     const idParams = computed(() => route.params.id);//
