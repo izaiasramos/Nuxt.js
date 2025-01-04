@@ -9,6 +9,7 @@
 <script setup>
     definePageMeta({
         layout: 'exibicao',
+        middleware: 'video',
     });
     const route = useRoute();//importa o useRoute para poder recuperar parametros da url/rota
 
