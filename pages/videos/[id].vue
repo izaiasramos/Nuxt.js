@@ -9,7 +9,7 @@
 <script setup>
     definePageMeta({
         layout: 'exibicao',
-        middleware: 'video',
+        middleware: ["video", "auth"],//puxando o middleware local, quando tenho que chamar na pagina desejada é um middleware local.
     });
     const route = useRoute();//importa o useRoute para poder recuperar parametros da url/rota
 
